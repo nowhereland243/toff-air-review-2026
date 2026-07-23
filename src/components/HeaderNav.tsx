@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { Columns3, HelpCircle, CheckCircle2, ClipboardList, AlertCircle, User, RefreshCw, Monitor } from 'lucide-react';
 import { ReviewDashboard } from './ReviewDashboard';
 import { JudgeModal } from './JudgeModal';
-import { getPendingChangesCount, getJudgeName, setJudgeName, syncScoresFromRemote } from '@/lib/scoreManager';
+import { getPendingChangesCount, getJudgeName, setJudgeName, syncScoresFromRemote, getAllScores } from '@/lib/scoreManager';
 
 interface HeaderNavProps {
   totalApplicants: number;
@@ -37,14 +37,8 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
   const updateCounts = () => {
     if (typeof window === 'undefined') return;
 
-    let scored = 0;
-    for (let i = 0; i < localStorage.length; i++) {
-      const key = localStorage.key(i);
-      if (key && key.startsWith('scored_') && localStorage.getItem(key) === 'true') {
-        scored++;
-      }
-    }
-    setScoredCount(scored);
+    const scores = getAllScores();
+    setScoredCount(scores.length);
 
     const pinnedRaw = localStorage.getItem('pinned_slugs');
     if (pinnedRaw) {
