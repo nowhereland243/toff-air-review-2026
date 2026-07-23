@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Columns3, HelpCircle, CheckCircle2, ClipboardList, AlertCircle, User, RefreshCw } from 'lucide-react';
+import { Columns3, HelpCircle, CheckCircle2, ClipboardList, AlertCircle, User, RefreshCw, Smartphone } from 'lucide-react';
 import { ReviewDashboard } from './ReviewDashboard';
 import { JudgeModal } from './JudgeModal';
 import { getPendingChangesCount, getJudgeName, setJudgeName, syncScoresFromRemote } from '@/lib/scoreManager';
@@ -20,7 +20,19 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
   const [isJudgeModalOpen, setIsJudgeModalOpen] = useState(false);
   const [judgeName, setJudgeNameState] = useState('');
   const [isSyncing, setIsSyncing] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    const checkMobile = () => {
+      if (typeof window !== 'undefined') {
+        setIsMobile(window.innerWidth < 768);
+      }
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const updateCounts = () => {
     if (typeof window === 'undefined') return;
@@ -82,11 +94,32 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
 
   return (
     <>
+      {isMobile && (
+        <div style={{
+          backgroundColor: '#2A2016',
+          borderBottom: '1px solid rgba(255, 183, 77, 0.4)',
+          color: '#ffb74d',
+          padding: '0.65rem 1rem',
+          textAlign: 'center',
+          fontSize: '0.825rem',
+          fontWeight: 600,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: '0.5rem',
+          position: 'sticky',
+          top: 0,
+          zIndex: 101,
+        }}>
+          <Smartphone size={16} />
+          <span>The experience is optimized for iPad, Mac, and PC.</span>
+        </div>
+      )}
       <header style={{
         backgroundColor: 'var(--bg-main)',
         borderBottom: '1px solid var(--border-subtle)',
         position: 'sticky',
-        top: 0,
+        top: isMobile ? '38px' : 0,
         zIndex: 100,
         padding: '1rem 1.5rem',
       }}>

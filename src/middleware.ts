@@ -27,9 +27,10 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Redirect unauthenticated request to /login
+  // Redirect unauthenticated request to /login with full query string preserved
+  const fullRedirect = pathname + request.nextUrl.search;
   const loginUrl = new URL('/login', request.url);
-  loginUrl.searchParams.set('redirect', pathname);
+  loginUrl.searchParams.set('redirect', fullRedirect);
   return NextResponse.redirect(loginUrl);
 }
 

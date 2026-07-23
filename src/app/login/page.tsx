@@ -25,8 +25,7 @@ function LoginForm() {
       });
 
       if (res.ok) {
-        router.push(redirectPath);
-        router.refresh();
+        window.location.href = redirectPath;
       } else {
         const data = await res.json();
         setError(data.error || 'Incorrect password');
