@@ -238,10 +238,10 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
               )}
             </button>
 
-            {/* Judge Identity Badge */}
-            <button
-              onClick={() => setIsJudgeModalOpen(true)}
-              title="Click to change Judge Name / Code"
+            {/* Judge Identity Badge (Read-only when judge is set) */}
+            <div
+              onClick={() => { if (!judgeName) setIsJudgeModalOpen(true); }}
+              title={judgeName ? `Logged in as Judge ${judgeName}` : 'Click to set Judge ID'}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -252,14 +252,15 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
                 borderRadius: '20px',
                 backgroundColor: 'var(--bg-card)',
                 border: judgeName ? '1px solid var(--accent-muted)' : '1px dashed var(--border-strong)',
-                cursor: 'pointer',
+                cursor: judgeName ? 'default' : 'pointer',
                 transition: 'all 0.2s',
+                userSelect: 'none',
               }}
             >
               <User size={15} />
               <span>{judgeName ? `Judge: ${judgeName}` : 'Set Judge ID'}</span>
               {isSyncing && <RefreshCw size={12} className="spin" style={{ marginLeft: '0.2rem' }} />}
-            </button>
+            </div>
 
             {/* Compare Link */}
             <Link
@@ -268,50 +269,50 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.5rem',
-                color: pathname === '/2026/compare' ? 'var(--text-primary)' : 'var(--text-secondary)',
-                fontWeight: pathname === '/2026/compare' ? 600 : 400,
+                color: pathname === '/2026/compare' ? 'var(--accent)' : 'var(--text-secondary)',
+                fontWeight: 500,
                 padding: '0.4rem 0.8rem',
                 borderRadius: '6px',
-                backgroundColor: pathname === '/2026/compare' ? 'var(--bg-card-hover)' : 'transparent',
-                transition: 'background-color 0.2s',
+                backgroundColor: pathname === '/2026/compare' ? 'var(--bg-card)' : 'transparent',
+                transition: 'color 0.2s',
               }}
             >
               <Columns3 size={16} />
               <span>Compare</span>
-              {pinnedCount > 0 && (
-                <span style={{
-                  backgroundColor: 'var(--accent)',
-                  color: '#FFF',
-                  fontSize: '11px',
-                  fontWeight: 700,
-                  padding: '0.1rem 0.45rem',
-                  borderRadius: '10px',
-                }}>
-                  {pinnedCount}
-                </span>
-              )}
             </Link>
 
-            {/* Judge Guide Link */}
+            {/* Guide Link */}
             <Link
               href="/2026/how-to-review"
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.4rem',
-                color: pathname === '/2026/how-to-review' ? 'var(--text-primary)' : 'var(--text-secondary)',
-                fontWeight: pathname === '/2026/how-to-review' ? 600 : 400,
+                gap: '0.5rem',
+                color: pathname === '/2026/how-to-review' ? 'var(--accent)' : 'var(--text-secondary)',
+                fontWeight: 500,
                 padding: '0.4rem 0.8rem',
                 borderRadius: '6px',
-                backgroundColor: pathname === '/2026/how-to-review' ? 'var(--bg-card-hover)' : 'transparent',
+                backgroundColor: pathname === '/2026/how-to-review' ? 'var(--bg-card)' : 'transparent',
+                transition: 'color 0.2s',
               }}
             >
               <HelpCircle size={16} />
-              <span>Judge Guide</span>
+              <span>Guide</span>
             </Link>
           </div>
         </div>
       </header>
+
+      {/* Judge Modal */}
+      <JudgeModal
+        isOpen={isJudgeModalOpen}
+        onClose={() => setIsJudgeModalOpen(false)}
+        onSubmit={(name) => {
+          setJudgeName(name);
+          setIsJudgeModalOpen(false);
+          updateCounts();
+        }}
+      />
 
       {/* Review Dashboard Drawer */}
       <ReviewDashboard
@@ -322,7 +323,9 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
           if (pathname === '/2026') {
             window.dispatchEvent(new CustomEvent('toff_open_artist_modal', { detail: { slug } }));
           } else {
-            window.location.href = `/2026?artist=${slug}`;
+            const judge = getJudgeName();
+            const judgeQuery = judge ? `&judge=${encodeURIComponent(judge)}` : '';
+            window.location.href = `/2026?artist=${slug}${judgeQuery}`;
           }
         }}
       />

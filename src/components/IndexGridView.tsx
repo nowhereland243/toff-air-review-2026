@@ -8,7 +8,7 @@ import * as ToggleGroup from '@radix-ui/react-toggle-group';
 import type { Applicant } from '@/lib/data';
 import { PdfModal } from './PdfModal';
 import { ArtistDetailModal } from './ArtistDetailModal';
-import { getAllScores, getCompositeScore, ScoreRecord } from '@/lib/scoreManager';
+import { getAllScores, getCompositeScore, getJudgeName, ScoreRecord } from '@/lib/scoreManager';
 
 interface IndexGridViewProps {
   applicants: Applicant[];
@@ -66,12 +66,16 @@ export function IndexGridView({ applicants }: IndexGridViewProps) {
 
   const openArtistModal = (slug: string) => {
     setSelectedSlug(slug);
-    window.history.pushState(null, '', `/2026?artist=${slug}`);
+    const judge = getJudgeName();
+    const judgeQuery = judge ? `&judge=${encodeURIComponent(judge)}` : '';
+    window.history.pushState(null, '', `/2026?artist=${slug}${judgeQuery}`);
   };
 
   const closeArtistModal = () => {
     setSelectedSlug(null);
-    window.history.pushState(null, '', '/2026');
+    const judge = getJudgeName();
+    const judgeQuery = judge ? `?judge=${encodeURIComponent(judge)}` : '';
+    window.history.pushState(null, '', `/2026${judgeQuery}`);
   };
 
   // Active PDF for Full Screen Modal Popup
