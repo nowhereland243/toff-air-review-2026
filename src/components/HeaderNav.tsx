@@ -57,12 +57,19 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
   };
 
   useEffect(() => {
-    // Check URL for ?judge= or ?code=
+    // Check URL for ?judge= or ?code= and keep ?judge=ActiveJudge in address bar
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       const judgeFromUrl = params.get('judge') || params.get('code');
+      const activeJudge = judgeFromUrl || getJudgeName();
       if (judgeFromUrl) {
         setJudgeName(judgeFromUrl);
+      } else if (activeJudge) {
+        try {
+          const url = new URL(window.location.href);
+          url.searchParams.set('judge', activeJudge);
+          window.history.replaceState({}, '', url.toString());
+        } catch (e) {}
       }
     }
 

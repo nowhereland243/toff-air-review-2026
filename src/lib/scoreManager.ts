@@ -134,6 +134,15 @@ export function setJudgeName(name: string) {
   if (typeof window === 'undefined') return;
   const trimmed = name.trim();
   localStorage.setItem('judge_name', trimmed);
+  if (trimmed) {
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.set('judge', trimmed);
+      window.history.replaceState({}, '', url.toString());
+    } catch (e) {
+      // ignore SSR URL parsing errors
+    }
+  }
   window.dispatchEvent(new Event(EVENT_NAME));
   if (trimmed) {
     syncScoresFromRemote(trimmed);
