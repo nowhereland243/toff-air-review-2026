@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Columns3, HelpCircle, CheckCircle2, ClipboardList, AlertCircle, User, RefreshCw, Smartphone } from 'lucide-react';
+import { Columns3, HelpCircle, CheckCircle2, ClipboardList, AlertCircle, User, RefreshCw, Monitor } from 'lucide-react';
 import { ReviewDashboard } from './ReviewDashboard';
 import { JudgeModal } from './JudgeModal';
 import { getPendingChangesCount, getJudgeName, setJudgeName, syncScoresFromRemote } from '@/lib/scoreManager';
@@ -94,32 +94,70 @@ export function HeaderNav({ totalApplicants }: HeaderNavProps) {
 
   return (
     <>
+      {/* Full-Screen Mobile Screen Gate */}
       {isMobile && (
         <div style={{
-          backgroundColor: '#2A2016',
-          borderBottom: '1px solid rgba(255, 183, 77, 0.4)',
-          color: '#ffb74d',
-          padding: '0.65rem 1rem',
-          textAlign: 'center',
-          fontSize: '0.825rem',
-          fontWeight: 600,
+          position: 'fixed',
+          inset: 0,
+          backgroundColor: 'var(--bg-main)',
+          zIndex: 99999,
           display: 'flex',
+          flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '0.5rem',
-          position: 'sticky',
-          top: 0,
-          zIndex: 101,
+          padding: '2rem',
+          textAlign: 'center',
         }}>
-          <Smartphone size={16} />
-          <span>The experience is optimized for iPad, Mac, and PC.</span>
+          <div style={{
+            width: '64px',
+            height: '64px',
+            borderRadius: '50%',
+            backgroundColor: 'var(--accent-muted)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: 'var(--accent)',
+            marginBottom: '1.5rem',
+          }}>
+            <Monitor size={32} />
+          </div>
+          
+          <h1 className="font-display" style={{
+            fontSize: '1.6rem',
+            fontWeight: 600,
+            color: 'var(--text-primary)',
+            marginBottom: '1rem',
+            lineHeight: 1.3,
+          }}>
+            Tom of Finland Foundation
+          </h1>
+
+          <p style={{
+            fontSize: '1.1rem',
+            color: 'var(--accent)',
+            fontWeight: 600,
+            marginBottom: '1rem',
+            maxWidth: '320px',
+            lineHeight: 1.5,
+          }}>
+            The experience is optimized for iPad, Mac, and PC.
+          </p>
+
+          <p style={{
+            fontSize: '0.875rem',
+            color: 'var(--text-secondary)',
+            maxWidth: '300px',
+            lineHeight: 1.5,
+          }}>
+            Please open this link on a larger screen to review applicant portfolios and submit evaluations.
+          </p>
         </div>
       )}
       <header style={{
         backgroundColor: 'var(--bg-main)',
         borderBottom: '1px solid var(--border-subtle)',
         position: 'sticky',
-        top: isMobile ? '38px' : 0,
+        top: 0,
         zIndex: 100,
         padding: '1rem 1.5rem',
       }}>
