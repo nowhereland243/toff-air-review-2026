@@ -1,0 +1,1997 @@
+{
+  "id": "aQOd49",
+  "name": "Tom of Finland Foundation Artist-in-Residence Application 2026",
+  "isNameModifiedByUser": false,
+  "workspaceId": "w4jkYA",
+  "folderId": null,
+  "organizationId": "wdZx1V",
+  "status": "PUBLISHED",
+  "hasDraftBlocks": false,
+  "numberOfSubmissions": 115,
+  "createdAt": "2025-11-26T23:27:49.000Z",
+  "updatedAt": "2026-01-18T22:48:22.000Z",
+  "index": 0,
+  "isClosed": false,
+  "settings": {
+    "language": "en",
+    "isClosed": false,
+    "closeMessageTitle": null,
+    "closeMessageDescription": null,
+    "closeTimezone": null,
+    "closeDate": null,
+    "closeTime": null,
+    "submissionsLimit": null,
+    "uniqueSubmissionKey": null,
+    "redirectOnCompletion": null,
+    "hasSelfEmailNotifications": false,
+    "selfEmailTo": null,
+    "selfEmailReplyTo": null,
+    "selfEmailSubject": null,
+    "selfEmailFromName": null,
+    "selfEmailBody": null,
+    "selfEmailSendingDomainId": null,
+    "selfEmailAttachPdf": false,
+    "hasRespondentEmailNotifications": false,
+    "respondentEmailTo": null,
+    "respondentEmailReplyTo": null,
+    "respondentEmailSubject": null,
+    "respondentEmailFromName": null,
+    "respondentEmailBody": null,
+    "respondentEmailSendingDomainId": null,
+    "respondentEmailAttachPdf": false,
+    "hasVerifyEmailNotifications": false,
+    "verifyEmailFromName": null,
+    "verifyEmailSendingDomainId": null,
+    "hasProgressBar": true,
+    "hasPartialSubmissions": false,
+    "pageAutoJump": false,
+    "saveForLater": true,
+    "styles": {
+      "theme": "LIGHT"
+    },
+    "password": null,
+    "submissionsDataRetentionDuration": null,
+    "submissionsDataRetentionUnit": null,
+    "metaSiteName": null,
+    "metaSiteFaviconUrl": null,
+    "metaTitle": null,
+    "metaDescription": null,
+    "metaImageUrl": null
+  },
+  "blocks": [
+    {
+      "type": "FORM_TITLE",
+      "groupType": "FORM_TITLE",
+      "payload": {
+        "logo": "https://storage.tally.so/e5cc5fba-be79-495f-8099-378fb56901bf/AiR_Avatar_280x280.png",
+        "cover": "https://storage.tally.so/d00208ba-6061-4038-a1a3-aa00e59e9659/AiR_Header_1500x600.png",
+        "coverSettings": {
+          "objectPositionYPercent": 51.07121231436037
+        },
+        "safeHTMLSchema": [
+          [
+            "Tom of Finland Foundation",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(68, 68, 68)"
+              ]
+            ]
+          ],
+          [
+            " "
+          ],
+          [
+            "Artist-in-Residence Application 2026",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(136, 136, 136)"
+              ]
+            ]
+          ]
+        ],
+        "title": "Tom of Finland Foundation Artist-in-Residence Application 2026"
+      },
+      "uuid": "39212a20-fcc8-48c2-9b57-065aa7d04929",
+      "groupUuid": "f4c699b3-5f5e-4f89-b26f-40deb5ee11fd"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "Tom of Finland Foundation stands at the crossroads of Queer history, erotic art, and cultural preservation. Through our Artist-in-Residence Program, we invite artists into a space where risk, play, and imagination are protected and encouraged. We know choosing this path can be hard—often lonely, often brave—and we’re sincerely glad you’ve come here to share your voice."
+              ],
+              [
+                "",
+                [
+                  [
+                    "tag",
+                    "br"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "p"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "a11ca332-2341-45f3-aeac-7b43eed45d80",
+      "groupUuid": "6664400f-2942-4a6d-9d37-2d9a22980af7"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "65fcf9e9-7074-43e7-9a0b-0ea78c383bd1",
+      "groupUuid": "06d0cd29-5ba1-4160-8df8-fa8edcf6496b"
+    },
+    {
+      "type": "HEADING_2",
+      "groupType": "HEADING_2",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Tell us a bit more about yourself"
+          ]
+        ]
+      },
+      "uuid": "296dd172-af40-4236-81dc-8e8a025d798e",
+      "groupUuid": "75d5a523-ea0f-402e-8a0f-9d1f6c6907d7"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "94de3897-93a5-4424-a496-58948fd70363",
+        "columnUuid": "19238c47-403e-4254-b50e-7049f79634e6",
+        "columnRatio": 50,
+        "placeholder": "First Name"
+      },
+      "uuid": "238a4225-f62b-4277-8e57-f8bd84d33a9b",
+      "groupUuid": "6511fde1-da94-4fb0-8f49-75ed38d5ba40"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "94de3897-93a5-4424-a496-58948fd70363",
+        "columnUuid": "2c444a3f-db3e-4dad-a58c-18665da72f9b",
+        "columnRatio": 50,
+        "placeholder": "Last Name"
+      },
+      "uuid": "a486acb8-8461-41a8-a747-0643a2802bcc",
+      "groupUuid": "cddc3d8f-74fd-4c7e-94f8-0e510047a46e"
+    },
+    {
+      "type": "INPUT_EMAIL",
+      "groupType": "INPUT_EMAIL",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "8449fbfd-9aa3-47ff-be71-51ffaaf7ed77",
+        "columnUuid": "e0785e0b-daa9-49a9-ab0b-44e2f2ebca88",
+        "columnRatio": 50,
+        "placeholder": "Email"
+      },
+      "uuid": "338de9d9-4efb-45ba-a62d-986e3332fd76",
+      "groupUuid": "bd3423de-f948-403d-9ed7-ff87267c935e"
+    },
+    {
+      "type": "INPUT_PHONE_NUMBER",
+      "groupType": "INPUT_PHONE_NUMBER",
+      "payload": {
+        "isRequired": true,
+        "internationalFormat": true,
+        "columnListUuid": "8449fbfd-9aa3-47ff-be71-51ffaaf7ed77",
+        "columnUuid": "fbc54e34-fa42-4463-8e73-79d73bef253f",
+        "columnRatio": 50,
+        "placeholder": "Phone"
+      },
+      "uuid": "7814e38f-2197-4842-ac0d-5194dd9ebe9c",
+      "groupUuid": "b1b223c8-6b13-4eb2-a9f8-27dfb30a3a40"
+    },
+    {
+      "type": "INPUT_LINK",
+      "groupType": "INPUT_LINK",
+      "payload": {
+        "isRequired": false,
+        "columnListUuid": "251d90cb-6e89-4c4a-8ef8-66474f3fd86b",
+        "columnUuid": "4b978293-b733-4004-84c5-46170207b93d",
+        "columnRatio": 44,
+        "placeholder": "Website"
+      },
+      "uuid": "0fd2afcc-0879-43b6-8911-76d0f4f87e0b",
+      "groupUuid": "c7a72598-42fe-4f1d-a570-ec6a13b7b992"
+    },
+    {
+      "type": "INPUT_LINK",
+      "groupType": "INPUT_LINK",
+      "payload": {
+        "isRequired": false,
+        "columnListUuid": "251d90cb-6e89-4c4a-8ef8-66474f3fd86b",
+        "columnUuid": "3bcf6689-6b9e-446f-a0d1-7ca61461a517",
+        "columnRatio": 56,
+        "placeholder": "Other links"
+      },
+      "uuid": "0484aa16-9ec4-4e6d-8a03-fe6b293a4e6d",
+      "groupUuid": "bedc38ee-9475-47ed-b00b-057d2b93395a"
+    },
+    {
+      "type": "INPUT_LINK",
+      "groupType": "INPUT_LINK",
+      "payload": {
+        "isRequired": false,
+        "placeholder": "Instagram Profile (Socials)"
+      },
+      "uuid": "98df02ad-e880-4821-9265-0443c6191c2a",
+      "groupUuid": "2e4ea48e-8e34-47d8-b904-d8b3ff68b0e4"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "e00667bd-6f7e-44c6-a942-d7ae088d8d39",
+      "groupUuid": "29158d35-c698-4efc-b2f5-866104ec993b"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Are you over 21 years of age?"
+          ]
+        ]
+      },
+      "uuid": "4c103d1d-bbff-4a8d-9fea-d9f998ce9ae8",
+      "groupUuid": "54c3fbc7-7c59-4bc1-a608-e505f87d5f25"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": true,
+        "isFirst": true,
+        "isLast": false,
+        "text": "Yes"
+      },
+      "uuid": "1ba1527a-a0fc-4c90-8e41-37dd5f90f2e8",
+      "groupUuid": "426eb9b4-5d41-4bb8-9450-94ed4b3329fd"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 1,
+        "isFirst": false,
+        "isLast": true,
+        "text": "No"
+      },
+      "uuid": "ab92c30e-11db-4390-8088-cf1acb5cd235",
+      "groupUuid": "426eb9b4-5d41-4bb8-9450-94ed4b3329fd"
+    },
+    {
+      "type": "HEADING_3",
+      "groupType": "HEADING_3",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "Where are you located?*",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "600"
+                  ]
+                ]
+              ],
+              [
+                "",
+                [
+                  [
+                    "tag",
+                    "br"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "div"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "1068c423-f12d-462e-a055-c0a2f7373041",
+      "groupUuid": "440c082e-ca0c-4954-a1fa-6c7d7b821e35"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "placeholder": "Country"
+      },
+      "uuid": "13174fcc-634f-4ada-a9b6-d1fa7cbcc00e",
+      "groupUuid": "70996c2b-e8b6-46ee-bc45-4542b3aeb833"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "523e74d6-d899-4fb7-beac-412e52800722",
+        "columnUuid": "56db6b05-a8a5-46b0-a5fc-84fd462665b9",
+        "columnRatio": 50,
+        "placeholder": "Street Address"
+      },
+      "uuid": "83740f39-fbe2-4e74-9ecb-2125e83734d6",
+      "groupUuid": "b982a70c-2f4c-4de7-8609-cb6378ab9475"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "523e74d6-d899-4fb7-beac-412e52800722",
+        "columnUuid": "9c3d44b8-17f9-436f-b36d-2d766dc8a730",
+        "columnRatio": 50,
+        "placeholder": "House/Apartment Numbers"
+      },
+      "uuid": "c01f48b0-16f0-4a07-9e3b-e25d45252432",
+      "groupUuid": "da529f38-49f5-47a1-a3c1-b75536c1319e"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "d79be763-73a6-4a61-992f-d2f44658d018",
+        "columnUuid": "51619b00-71a7-4b2c-93c4-f9f2303b09b9",
+        "columnRatio": 33,
+        "placeholder": "City"
+      },
+      "uuid": "cbb31fa2-ae9d-4742-8563-8d553ffc0cc3",
+      "groupUuid": "9ff25105-dbcc-4e85-ad5a-7a71b24650cb"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "d79be763-73a6-4a61-992f-d2f44658d018",
+        "columnUuid": "ef8c8885-7cad-4214-8696-f17e97eaa88a",
+        "columnRatio": 33,
+        "placeholder": "State"
+      },
+      "uuid": "76a07632-dc1f-4e65-84df-48abc4e8611b",
+      "groupUuid": "00eef17c-3b65-4f59-8f84-c3aa839f7b84"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": true,
+        "columnListUuid": "d79be763-73a6-4a61-992f-d2f44658d018",
+        "columnUuid": "4288ccc3-8381-42f2-bfdf-d5f77dd560e3",
+        "columnRatio": 34,
+        "placeholder": "ZipCode"
+      },
+      "uuid": "d8de826a-4df9-4d4a-92cd-3c99b4f14062",
+      "groupUuid": "d9017575-f9e7-4679-a2ef-db899c2cd65d"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "5fe026b8-765e-472d-ae58-30ce06657f91",
+      "groupUuid": "0cf3c8e5-8aaf-4a04-a1b1-bc0a08ab8f13"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                [
+                  [
+                    "What is your medium",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(0, 0, 0)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ],
+          [
+            "?"
+          ]
+        ]
+      },
+      "uuid": "1ae39151-f331-4547-934c-3f513298c4d2",
+      "groupUuid": "3c84909d-e1ab-427e-9530-578dd3c42751"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "eg: Drawing, photography, collage",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(68, 68, 68)"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "c5d0b1f8-c7e2-43f2-b326-6a1887947eb6",
+      "groupUuid": "6d2d9a8b-bb76-4da6-8ce9-0bbe5a5376e5"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": true,
+        "placeholder": ""
+      },
+      "uuid": "bda3d43e-b22a-4bad-bde6-b47e7ba47d3d",
+      "groupUuid": "235c1fd9-9985-4727-ad40-59b4dc2d9ecf"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Give us your biography as an artist",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ]
+            ]
+          ],
+          [
+            " ",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ]
+            ]
+          ],
+          [
+            "-",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(136, 136, 136)"
+              ],
+              [
+                "font-weight",
+                "700"
+              ]
+            ]
+          ],
+          [
+            " ",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ],
+              [
+                "font-weight",
+                "700"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  [
+                    "150 words max",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(136, 136, 136)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "77baaeab-c228-48f7-94dd-f55f13ab94e8",
+      "groupUuid": "3ad95b52-467d-43d7-b4ad-78141a967309"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": true,
+        "hasMaxCharacters": true,
+        "maxCharacters": 1200,
+        "placeholder": ""
+      },
+      "uuid": "afd89b68-a660-4237-b41f-8714491222cc",
+      "groupUuid": "69bded8b-d401-4d0f-91bb-f5713d890d69"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "5aa4d0d2-8d53-4ee9-9339-f674a2e058cf",
+      "groupUuid": "c654d2bd-2ccf-4798-8d43-106383c2cb87"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                [
+                  [
+                    "Have you previously participated in any residency programs?:",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "font-weight",
+                        "700"
+                      ]
+                    ]
+                  ],
+                  [
+                    "&nbsp; "
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(0, 0, 0)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "d7a14c5e-de13-483f-a4a8-e34aaad69224",
+      "groupUuid": "12f11d1d-d2a9-4bf2-9983-c387d0f187ad"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": true,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "7511f227-8215-4d26-a9b4-e243d28b37b9",
+        "columnUuid": "75e3b8ec-74c3-4293-b403-a06b3057cfb0",
+        "columnRatio": 50,
+        "text": "Yes"
+      },
+      "uuid": "e568ed2d-e08d-47a4-9880-206626d0c762",
+      "groupUuid": "ac07affe-51ff-4a0b-a6c4-8f5784ef7c44"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 1,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "7511f227-8215-4d26-a9b4-e243d28b37b9",
+        "columnUuid": "2175dee9-23c7-4974-95d1-da7a5c14e960",
+        "columnRatio": 50,
+        "text": "No"
+      },
+      "uuid": "ce5c9ad2-e9e1-4268-841c-2dde4bd0d90e",
+      "groupUuid": "ac07affe-51ff-4a0b-a6c4-8f5784ef7c44"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "93ab4f91-6645-43c8-8966-8794edd5dd0e",
+      "groupUuid": "1bc3d572-bc5f-403e-9bec-ef206ca2e006"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                [
+                  [
+                    "Describe your proposed project for the residency ",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(0, 0, 0)"
+                      ]
+                    ]
+                  ],
+                  [
+                    "- ",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(136, 136, 136)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "400 words max",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(136, 136, 136)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "2fcd9342-ff34-41a0-860f-9eb203368d09",
+      "groupUuid": "1b75747a-fad2-49c9-a837-97e7b2262903"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": true,
+        "hasMaxCharacters": true,
+        "maxCharacters": 2800,
+        "placeholder": ""
+      },
+      "uuid": "29015661-8cc7-4337-a798-1473be2892fd",
+      "groupUuid": "9cfeb243-61dc-41a6-bcd1-9c42b42b2a0f"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                [
+                  [
+                    "How do you plan to specifically engage with/utilize the archives here at Tom of Finland Foundation? ",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(0, 0, 0)"
+                      ]
+                    ]
+                  ],
+                  [
+                    "- 100 words max",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(136, 136, 136)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "2b2dd4a3-0c45-4645-a17f-42e356064208",
+      "groupUuid": "2daaef8a-9938-4c23-bc5d-208343fdb037"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "The Foundation’s archives include original Tom of Finland artworks, personal papers, photographs, and holds one of the world’s most significant archives of Queer erotic art, including drawings, photographs, letters, and ephemera spanning decades of LGBTQ+ history. We encourage residents to consider how these collections may support research, spark creative projects, or inform new perspectives within queer art and culture.",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(136, 136, 136)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "p"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "df5267d1-3e32-41d6-a284-8ed14e066a2d",
+      "groupUuid": "3bf74d0a-0286-4ae2-99c8-744cb28e7bf5"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": true,
+        "hasMaxCharacters": true,
+        "maxCharacters": 650,
+        "placeholder": ""
+      },
+      "uuid": "39b81492-db48-4446-a03c-3220b5c68585",
+      "groupUuid": "36ee0028-eb6f-4164-8d27-3b7b19285346"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "How did you hear about the Tom of Finland Artist-in-Residence Program? ",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  [
+                    " - ",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(0, 0, 0)"
+                      ]
+                    ]
+                  ],
+                  [
+                    "100 words max",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(136, 136, 136)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "06cb530b-1016-4aaa-b364-a9817daba2c4",
+      "groupUuid": "3495ffb1-78be-4acc-a524-39b3d2bf6ce6"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": true,
+        "hasMaxCharacters": true,
+        "maxCharacters": 650,
+        "placeholder": ""
+      },
+      "uuid": "991cd17e-11f3-425a-919b-4c9b0c61f448",
+      "groupUuid": "8186fb25-2aab-4255-b036-0722cccd29c5"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                [
+                  [
+                    "Do you have any special requirements or needs during your residency ",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(0, 0, 0)"
+                      ]
+                    ]
+                  ],
+                  [
+                    "e.g. accessibility or dietary restrictions",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(136, 136, 136)"
+                      ]
+                    ]
+                  ],
+                  [
+                    "?:",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(0, 0, 0)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ],
+              [
+                "&nbsp; ",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(0, 0, 0)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ],
+          [
+            "",
+            [
+              [
+                "tag",
+                "br"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "d9d20269-e925-4942-802d-8f441d23f469",
+      "groupUuid": "319c295e-bd70-4f57-8240-2ebdc75aa058"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": false,
+        "hasMaxCharacters": false,
+        "maxCharacters": 650,
+        "placeholder": ""
+      },
+      "uuid": "30f27040-c57f-4ca7-b703-846a33273fdf",
+      "groupUuid": "e841d6a2-958f-4b90-8859-a1db332e48d8"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                [
+                  [
+                    "Is there anything else you would like us to know about your application or proposed projects?:",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "font-weight",
+                        "700"
+                      ]
+                    ]
+                  ],
+                  [
+                    "&nbsp; "
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(0, 0, 0)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "cb616a25-77bd-4e01-b149-e9dd44972e55",
+      "groupUuid": "397075e3-7bc4-4d53-a7de-f2743a5e5919"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": false,
+        "placeholder": ""
+      },
+      "uuid": "3ed61bcf-178a-4f74-84c2-26551c035fd1",
+      "groupUuid": "4c7226cf-b908-4765-ba6d-6dcb700bf821"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "Please submit work samples relevant to your practice/project proposal",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "39484c32-6863-4d06-9b17-e81296cd6a66",
+      "groupUuid": "bb132291-c287-4b5d-93da-9b3f21da55ea"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Please attach the following as a PDF (Provide 3-8 work samples for review)",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(136, 136, 136)"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "- Acceptable formats: JPEG, PDF, Video/audio as links only&nbsp;",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(136, 136, 136)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "div"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "- Video/sound works (2-3 examples) with 5 minutes maximum length each&nbsp;",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(136, 136, 136)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "div"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "- Writing sample (500 words maximum length)",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(136, 136, 136)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "div"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "e7af2388-0630-41dd-999a-f84e438f746e",
+      "groupUuid": "a42fb51c-717e-4ff6-8f43-ee02163ac82c"
+    },
+    {
+      "type": "FILE_UPLOAD",
+      "groupType": "FILE_UPLOAD",
+      "payload": {
+        "isRequired": true,
+        "hasMultipleFiles": true,
+        "hasMinFiles": true,
+        "hasMaxFiles": true,
+        "minFiles": 3,
+        "maxFiles": 8
+      },
+      "uuid": "8d287069-baef-47be-9582-500e6b89e9a5",
+      "groupUuid": "3a0147ee-cdb3-409b-9e8d-b3c721fd2eee"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": false,
+        "placeholder": "(Optional) Video/sound works Links"
+      },
+      "uuid": "9b7c061b-8e33-4eb9-b3ae-ce6edc304d22",
+      "groupUuid": "ab354fbb-99d7-49d9-b54a-b77841d7aa45"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": false,
+        "hasMaxCharacters": true,
+        "maxCharacters": 3200,
+        "placeholder": "(Optional) Writing Samples - 500 words max"
+      },
+      "uuid": "6f071a02-059d-4529-8930-46b4176bedbe",
+      "groupUuid": "a541c0b6-74e1-4b28-9b00-d0225e51a0a7"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Artwork Descriptions",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "a6b15495-cf9c-42fe-9241-965eaeafd747",
+      "groupUuid": "62b8b7fc-ad82-4676-ae49-8cb8089c9841"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "List the title, year, medium, and dimensions for each uploaded work.\n(Be sure to match the descriptive information to the exact filenames you uploaded.)\n\nExample:"
+          ]
+        ]
+      },
+      "uuid": "1528b674-7d67-49f1-ae96-4f1046581400",
+      "groupUuid": "f8d4afa9-fc61-4440-a85e-014a95f9b1e9"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "1. "
+          ],
+          [
+            "Tom of Finland Untitled",
+            [
+              [
+                "href",
+                "https://drive.google.com/file/d/1Op9rqPR1Fmd4DObhXGVsGDQk9e3Jt8SZ/view?usp=sharing"
+              ]
+            ]
+          ],
+          [
+            " (Cover for \"Sex on the Train\"), 1985, graphite on paper, 13 × 9"
+          ],
+          [
+            "1/2 inches",
+            [
+              [
+                "tag",
+                "div"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "2. "
+              ],
+              [
+                "Tom of Finland, Buddies",
+                [
+                  [
+                    "href",
+                    "https://drive.google.com/file/d/1wZCCju1VUaqYDSM0yMhz1RTccu8M45Nl/view?usp=drive_link"
+                  ]
+                ]
+              ],
+              [
+                ", 1973, gouache on paper, 12 1/4 x 8 7/8 inches"
+              ]
+            ],
+            [
+              [
+                "tag",
+                "div"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                [
+                  [
+                    "",
+                    [
+                      [
+                        "tag",
+                        "br"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "div"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "div"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "7f98aac9-da2c-45c6-936a-30bcbf850342",
+      "groupUuid": "c6e1156d-0fb3-4f1c-a66a-3325850a4642"
+    },
+    {
+      "type": "TEXTAREA",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": true,
+        "placeholder": ""
+      },
+      "uuid": "1d52e362-cba0-40ad-a861-0af19f8a4f74",
+      "groupUuid": "2e07f094-e471-4058-b022-a2fc7b3c2761"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "Resume/CV",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "d077855b-9b2d-4b2c-8692-793368bf5e5b",
+      "groupUuid": "b002286d-720a-4d2d-95b1-b5ce1bbcea48"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Please upload your current resume or CV, including education, exhibitions, publications, and professional experiences here. - ",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(115, 115, 115)"
+              ]
+            ]
+          ],
+          [
+            "10 MB max each file",
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(174, 174, 174)"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "1e52e660-b60c-4515-91fc-253d39d29697",
+      "groupUuid": "ee2c5fcb-8387-4821-b765-6cdcaa3d6280"
+    },
+    {
+      "type": "FILE_UPLOAD",
+      "groupType": "FILE_UPLOAD",
+      "payload": {
+        "isRequired": true
+      },
+      "uuid": "56a884f9-7738-48b5-ab5b-84bead93970c",
+      "groupUuid": "be68b261-82e8-4a48-86b2-948c81e9d3ab"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "If someone referred you, please list their name"
+          ]
+        ]
+      },
+      "uuid": "25042ada-396e-4dd9-be57-e5910d9998e8",
+      "groupUuid": "87d9243d-112d-42c8-93c5-f00cdc2cc62a"
+    },
+    {
+      "type": "INPUT_TEXT",
+      "groupType": "INPUT_TEXT",
+      "payload": {
+        "isRequired": false,
+        "placeholder": ""
+      },
+      "uuid": "835fc4ba-7556-4b24-8c3d-82120f5e9dcc",
+      "groupUuid": "887fd210-1108-45cc-8e52-5a13e0e5625a"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "b15aed39-06fa-4bc1-8496-cadc6a90ea43",
+      "groupUuid": "deb99c2b-7801-4ac3-abc3-34e34abb7824"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "Preferred time of year/room applying",
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "span"
+              ],
+              [
+                "color",
+                "rgb(0, 0, 0)"
+              ],
+              [
+                "font-weight",
+                "normal"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "33107c6e-8fc8-4db6-9d3a-b02d57963c6c",
+      "groupUuid": "b0bf6243-82bd-4ac6-9279-0a554ea192c5"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": true,
+        "isFirst": true,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "The Music Room ($650/month) - May-July 2026"
+      },
+      "uuid": "94634321-f294-4d87-84f3-c742c21f106b",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "The Music Room ($650/month) - August-October 2026"
+      },
+      "uuid": "7ac427e2-1537-459f-b26c-ca61032a52e4",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "Lawton’s Lookout ($375/month) - March-May 2026"
+      },
+      "uuid": "ac1d25b4-3815-4031-9aa7-ebcb84025af7",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "Lawton’s Lookout ($375/month) - June-August 2026"
+      },
+      "uuid": "ca3b74ad-fa49-4051-8497-ac954dc0e727",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "Lawton’s Lookout ($375/month) - September-November 2026"
+      },
+      "uuid": "57f464d2-defb-4e7c-9d26-98be8f729ba2",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 5,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "Lawton’s Lookout ($375/month) - December 2026-February 2027"
+      },
+      "uuid": "d2084a41-9299-42dd-a433-874898b612c3",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 6,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "Michael Kirwan Solarium ($650/month) - August-October 2026"
+      },
+      "uuid": "4c1c787d-28f6-403b-b10d-79e5f389e6a9",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": true,
+        "index": 7,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "Michael Kirwan Solarium ($650/month) - November 2026-January 2027"
+      },
+      "uuid": "a764e950-f5f0-46c8-aa6c-2f8f59119041",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "index": 8,
+        "isRequired": true,
+        "isFirst": false,
+        "isLast": true,
+        "allowMultiple": true,
+        "hasMinChoices": true,
+        "minChoices": 1,
+        "hasOtherOption": true,
+        "text": "Other"
+      },
+      "uuid": "f456eaea-aeba-4bdb-86fa-95509ce174d0",
+      "groupUuid": "222dedca-471f-407e-98f6-58d592c3b6d4"
+    },
+    {
+      "type": "TITLE",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Are you able to join our residency in LA, USA ?"
+          ]
+        ]
+      },
+      "uuid": "28a2e2a2-15bf-4527-ac75-7a81b1bc78ee",
+      "groupUuid": "35a7178b-6a36-4e5b-a149-41b1637c3f1e"
+    },
+    {
+      "type": "DROPDOWN_OPTION",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "text": "Yes"
+      },
+      "uuid": "3e60adae-5253-4346-99b9-3f2f74abbf05",
+      "groupUuid": "b80f15d1-bd06-4f7b-91e8-1d7f4b2e004f"
+    },
+    {
+      "type": "DROPDOWN_OPTION",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": true,
+        "text": "No"
+      },
+      "uuid": "d51cfc34-3fa3-4fa8-8c4c-5897e734dce5",
+      "groupUuid": "b80f15d1-bd06-4f7b-91e8-1d7f4b2e004f"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "f9ac3c33-ea46-44e7-8b5a-bbd348384a48",
+      "groupUuid": "f6beeba8-6de5-4612-8eec-278457429b38"
+    },
+    {
+      "type": "PAGE_BREAK",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 0,
+        "isQualifiedForThankYouPage": true,
+        "isThankYouPage": true,
+        "isFirst": true,
+        "isLast": true
+      },
+      "uuid": "336febbb-166a-4451-b096-1752ff3faddb",
+      "groupUuid": "5e3198b4-e70c-4b21-9b2e-e6392dceb593"
+    },
+    {
+      "type": "HEADING_3",
+      "groupType": "HEADING_3",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                [
+                  [
+                    "Well done, and thank you for applying to Tom of Finland Foundation. We honor the Queer imagination and the care you brought to your submission, and we’ll be in touch shortly.",
+                    [
+                      [
+                        "tag",
+                        "span"
+                      ],
+                      [
+                        "color",
+                        "rgb(0, 0, 0)"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "background-color",
+                    "rgb(255, 255, 255)"
+                  ],
+                  [
+                    "font-weight",
+                    "700"
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "",
+                    [
+                      [
+                        "tag",
+                        "br"
+                      ]
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "tag",
+                    "span"
+                  ],
+                  [
+                    "color",
+                    "rgb(0, 0, 0)"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                "tag",
+                "p"
+              ],
+              [
+                "font-weight",
+                "400"
+              ]
+            ]
+          ]
+        ]
+      },
+      "uuid": "138c2061-fd31-4e00-b283-2154c9af0bd2",
+      "groupUuid": "684b2f2b-59ae-4e96-8ab8-13144b1f0604"
+    },
+    {
+      "type": "TEXT",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": []
+      },
+      "uuid": "1d3d4d48-3085-4809-8d92-e137811785b8",
+      "groupUuid": "56193ef6-22fb-4605-a0c2-f81647daed56"
+    }
+  ]
+}

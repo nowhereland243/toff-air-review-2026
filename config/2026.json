@@ -1,0 +1,46 @@
+{
+  "cohort": "2026",
+  "cohortTitle": "Artist-in-Residence Applications — 2026",
+  "notionDatabaseId": "2b7305fa12a580f4a9fce98d8a07663a",
+  "notionDataSourceId": "2b7305fa-12a5-8011-be6d-000bda99bdb3",
+  "sitePassword_env": "SITE_PASSWORD",
+  "scoreFormPrefillTemplate": "https://tally.so/r/FORM_ID?artist={{artistName}}&judge={{judgeName}}",
+  "scoringDeadline": "2026-08-15",
+  "fields": {
+    "title": "Last Name",
+    "visible": [
+      "First Name",
+      "Last Name",
+      "City",
+      "Country",
+      "What is your medium?",
+      "Artist biography",
+      " Proposal",
+      "Artwork Descriptions",
+      "Plans for Archive",
+      "Writing Samples",
+      "Work Samples",
+      "Resume/CV",
+      "Time and Room",
+      "Past Residency ",
+      "Anything Else",
+      "Website",
+      "Social URL",
+      "Other Links",
+      "Video/Audio Work Urls",
+      "LA"
+    ],
+    "hidden": [
+      "Email",
+      "Phone",
+      "Street",
+      "House/apt#",
+      "Zipcode",
+      "State",
+      "Referrer",
+      "How did you hear about us?",
+      "Special Requirements"
+    ]
+  },
+  "imageMaxWidth": 1600
+}

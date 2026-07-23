@@ -1,0 +1,206 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Plus+Jakarta+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 4px;
+}
+
+/* Accessibility Focus States */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Typography Helpers */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.label-utility {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* CSS Masonry Columns Layout */
+.masonry-grid {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1400px) {
+  .masonry-grid {
+    column-count: 4;
+  }
+}
+
+.masonry-item {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/app/tokens.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --bg-main: #141210;
+  --bg-card: #1C1A17;
+  --bg-card-hover: #24211D;
+  --bg-elevated: #282521;
+  --bg-overlay: rgba(20, 18, 16, 0.95);
+  
+  --border-subtle: #2C2824;
+  --border-strong: #3E3934;
+
+  --text-primary: #EDE8E0;
+  --text-secondary: #B5AFA6;
+  --text-muted: #807A72;
+  
+  --accent: #9E3B2B;
+  --accent-hover: #B84A39;
+  --accent-muted: rgba(158, 59, 43, 0.2);
+
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Radix Keyframes (for animations relying on these tokens) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideOutRight {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
+}
+
+@keyframes contentShow {
+  from { opacity: 0; transform: translate(-50%, -48%) scale(0.96); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes contentHide {
+  from { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  to { opacity: 0; transform: translate(-50%, -48%) scale(0.96); }
+}
+
+/* Radix Global Styles mapped to our tokens */
+.radix-overlay {
+  background-color: var(--bg-overlay);
+  position: fixed;
+  inset: 0;
+  animation: fadeIn 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9998;
+}
+
+.radix-overlay[data-state='closed'] {
+  animation: fadeOut 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.radix-dialog-content {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9999;
+}
+
+.radix-dialog-content[data-state='closed'] {
+  animation: contentHide 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.radix-drawer-content {
+  background-color: var(--bg-card);
+  border-left: 1px solid var(--border-subtle);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+  animation: slideInRight 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9999;
+}
+
+.radix-drawer-content[data-state='closed'] {
+  animation: slideOutRight 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+

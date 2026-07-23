@@ -1,0 +1,98 @@
+:root {
+  --bg-main: #141210;
+  --bg-card: #1C1A17;
+  --bg-card-hover: #24211D;
+  --bg-elevated: #282521;
+  --bg-overlay: rgba(20, 18, 16, 0.95);
+  
+  --border-subtle: #2C2824;
+  --border-strong: #3E3934;
+
+  --text-primary: #EDE8E0;
+  --text-secondary: #B5AFA6;
+  --text-muted: #807A72;
+  
+  --accent: #9E3B2B;
+  --accent-hover: #B84A39;
+  --accent-muted: rgba(158, 59, 43, 0.2);
+
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Radix Keyframes (for animations relying on these tokens) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideOutRight {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
+}
+
+@keyframes contentShow {
+  from { opacity: 0; transform: translate(-50%, -48%) scale(0.96); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes contentHide {
+  from { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  to { opacity: 0; transform: translate(-50%, -48%) scale(0.96); }
+}
+
+/* Radix Global Styles mapped to our tokens */
+.radix-overlay {
+  background-color: var(--bg-overlay);
+  position: fixed;
+  inset: 0;
+  animation: fadeIn 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9998;
+}
+
+.radix-overlay[data-state='closed'] {
+  animation: fadeOut 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.radix-dialog-content {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9999;
+}
+
+.radix-dialog-content[data-state='closed'] {
+  animation: contentHide 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.radix-drawer-content {
+  background-color: var(--bg-card);
+  border-left: 1px solid var(--border-subtle);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+  animation: slideInRight 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 9999;
+}
+
+.radix-drawer-content[data-state='closed'] {
+  animation: slideOutRight 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
