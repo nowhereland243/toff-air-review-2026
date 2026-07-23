@@ -1,9 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/login/route": "app/api/login/route.js",
-  "/2026/artist/[slug]/page": "app/2026/artist/[slug]/page.js",
-  "/login/page": "app/login/page.js",
-  "/2026/compare/page": "app/2026/compare/page.js",
-  "/2026/page": "app/2026/page.js",
-  "/2026/how-to-review/page": "app/2026/how-to-review/page.js"
-}
